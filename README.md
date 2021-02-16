@@ -50,7 +50,7 @@ Pyinstall: ${PSM_DYLIB}
 ```
 By changing `python` in the last line to `python3`
 ## The jupyter way...
-You can also just dass the following to a cell in the notebook
+You can also just add the following to an empty cell in the notebook and run the code:
 ```
 %pip install ipympl ipywidgets
 %pip install git+https://github.com/GAMPTeam/vampyre.git
