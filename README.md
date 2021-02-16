@@ -49,3 +49,11 @@ Pyinstall: ${PSM_DYLIB}
 	cd python-package; python setup.py install; cd ..
 ```
 By changing `python` in the last line to `python3`
+## The jupyter way...
+You can also just dass the following to a cell in the notebook
+```
+%pip install ipympl ipywidgets
+%pip install git+https://github.com/GAMPTeam/vampyre.git
+%pip install git+https://github.com/EMS-TU-Ilmenau/fastmat.git
+```
+This installs the packages directly from github. Unfortunately, it does not work for primal.
