@@ -28,7 +28,7 @@ mkdir git
 cd git
 
 git clone https://github.com/GAMPTeam/vampyre.git
-cd vampyre; pip install . 
+cd vampyre; pip install -e . 
 
 cd ..
 git clone https://github.com/EMS-TU-Ilmenau/fastmat.git
@@ -53,7 +53,6 @@ By changing `python` in the last line to `python3`
 You can also just add the following to an empty cell in the notebook and run the code:
 ```
 %pip install ipympl ipywidgets
-%pip install git+https://github.com/GAMPTeam/vampyre.git
 %pip install git+https://github.com/EMS-TU-Ilmenau/fastmat.git
 ```
-This installs the packages directly from github. Unfortunately, it does not work for primal.
+This installs the packages directly from github. Unfortunately, it does not work for vampyre and primal.
